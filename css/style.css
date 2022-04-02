@@ -164,8 +164,25 @@ header.sticky ul li a{
     background: #2196f3;
 }
 
+.projects{
+    color: white;
+    background: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.projects .projectsBx a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+
+
 .midia{
-    background: #dfdfdf;
+    background: #ffffff;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -358,7 +375,7 @@ footer{
     }
 
     .banner{
-        padding: 125px 50px 100px;
+        padding: 150px 50px 100px;
     }
 
     .banner h2{
